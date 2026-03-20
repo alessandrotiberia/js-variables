@@ -6,7 +6,9 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = 0;
+//DIFFERENZA LENGHT (SOMMA) INDEXOF TROVA LA POSIZIONE 
+const cityIndex = city.indexOf("Y"); //indexof indice di tradotto
+//si occupa di contare (parte da 0) leggendo le lettere dando cosi 4 a y
 console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
