@@ -13,7 +13,8 @@ console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
+//diciamo da quale numero iniziare a leggere 4 = a Y e continua completando la parola york
+const citySubstring = city.substring(4);
 console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
@@ -25,10 +26,12 @@ console.log(cityReplaced); // Output:  "New Delhi"
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = "${city} ${cityName}";
+// formula va a prende la variabile e la riscrive in questa posizione
+const cityNameConcat = `${city} ${cityName}`;
 console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = hello.toUpperCase();
+// richiamo variabile hello e con uppercase trasformo tutto in maiuscolo.
+const upperCaseHello = hello.toUpperCase(); 
 console.log(upperCaseHello); // Output: "HELLO"
